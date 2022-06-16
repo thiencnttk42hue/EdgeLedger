@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+
+/* html {
+    scroll-behavior: smooth
+} */
+
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.4;
@@ -241,10 +246,19 @@ p {
     margin: 0.75rem;
 }
 
+#contact .contact-form label {
+    display: block;
+}
+
 #contact .contact-form input,
 #contact .contact-form textarea {
     width: 100%;
     padding: 0.5rem;
     resize: none;
     outline: none;
+}
+
+#contact .contact-form .form-group .btn:hover {
+    background: #fff;
+    color: #333;
 }
