@@ -1,0 +1,16 @@
+/* Align icon to left */
+
+#what .items .item {
+    display: flex;
+    text-align: left;
+}
+
+#what .items .item i {
+    /* giúp icon hết méo theo chiều cao */
+    align-self: center;
+    margin: 0 1.3rem 0 0;
+}
+
+#contact .map {
+    flex: 2;
+}
